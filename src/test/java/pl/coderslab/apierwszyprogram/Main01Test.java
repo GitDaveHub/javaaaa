@@ -9,9 +9,14 @@ import static org.assertj.core.api.Assertions.*;
 
 public class Main01Test {
 
-    private static final String EXPECTED_OUTPUT = "Hello world";
+    private static final Object EXPECTED_OUTPUT = 30;
 
-    private String output;
+    public static void main(String[] args) {
+
+        System.out.println("Hello world");
+        }
+
+    String output;
 
     @Rule
     public final SystemOutRule systemOutRule = new SystemOutRule().enableLog();
@@ -24,6 +29,6 @@ public class Main01Test {
 
     @Test
     public void whenRun_thenSystemOut_printHelloWorld() {
-      assertThat(output.trim()).contains(EXPECTED_OUTPUT);
+      assertThat(output.trim()).contains((CharSequence) EXPECTED_OUTPUT);
     }
 }
