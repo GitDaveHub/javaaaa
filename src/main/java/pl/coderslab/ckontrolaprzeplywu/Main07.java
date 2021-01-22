@@ -8,7 +8,5 @@ public class Main07 {
 				System.out.println("i = " + i + " j = " + j);
 			}
 		}
-
 	}
-
 }

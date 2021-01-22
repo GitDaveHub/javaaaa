@@ -14,10 +14,6 @@ public class Main03 {
         suma=(a+b+c+d+e);
         srednia=suma/5;
         System.out.println(srednia);
-
-
-
-
     }
 }
 

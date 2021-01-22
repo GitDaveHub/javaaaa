@@ -11,7 +11,5 @@ public class Main05 {
 			min = numbers[i];
 		}
 			System.out.println("MIN:"+" "+min);
-
-
 	}
 }

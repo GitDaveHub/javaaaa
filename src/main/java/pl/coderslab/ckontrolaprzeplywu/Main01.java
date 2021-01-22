@@ -7,7 +7,7 @@ public class Main01 {
         int nr2 = 7;
         if (nr1 > nr2) {
             System.out.println("Stwierdzenie fałszywe");
-        }else if(nr2 > nr1)
+        }else;
             System.out.println("Większa liczba to 7");
 
 

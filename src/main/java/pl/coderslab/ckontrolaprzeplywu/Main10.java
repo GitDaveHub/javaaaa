@@ -5,28 +5,27 @@ public class Main10 {
     public static void main(String[] args) {
         int n = 5;
         for (int i = 1; i <= n; i++) {
-            for (int k = 1; k <= n; k++) {
-                if (k <= i) {
+            for (int j = 1; j <= n; j++) {
+                if (j <= i) {
                     System.out.print("*");
                 } else {
-                    System.out.print(k);
-                }
-            }
-            System.out.print("\n");
+                    System.out.print(j); }
+            }System.out.print("\n");
         }
-        n = 1;
-        for (int i = 5; i >= n; i--) {
-            for (int k = 5; k >= n; k--) {
-                if (k >= i) {
-                    System.out.print(k);
-                } else {
+        for (int i = 1; i <=n ; i++) {
+            for (int j = 1; j <=n ; j++) {
+                if (j >= i) {
                     System.out.print("*");
-                }
+                } else {
+                    System.out.print(j); }
             }
             System.out.print("\n");
         }
     }
 }
+
+
+
 
 
 

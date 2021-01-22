@@ -1,20 +1,21 @@
 package pl.coderslab.ckontrolaprzeplywu;
 
+import ch.qos.logback.core.joran.conditional.PropertyWrapperForScripts;
+
 public class Main08 {
 
     public static void main(String[] args) {
-
         int n = 5;
         for (int i = 1; i <= n; i++) {
-            for (int k = 1; k <= n; k++) {
-                if (k <= i) {
+            for (int j = 1; j <= n; j++) {
+                if (j <= i) {
                     System.out.print("*");
                 } else {
-                    System.out.print(k);
-                }
+                    System.out.print(j); }
             }
             System.out.print("\n");
         }
     }
 }
+
 

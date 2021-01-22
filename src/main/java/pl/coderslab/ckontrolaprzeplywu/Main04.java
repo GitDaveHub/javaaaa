@@ -6,13 +6,10 @@ public class Main04 {
 		for(int i=1; i<=10; i++) {
 			System.out.print(i + " ");
 		}System.out.println("\t");
-
 		int i=1;
 		while (i<=10) {
 			System.out.print(i + " ");
 			i++;
 		}
-
 	}
-
 }
